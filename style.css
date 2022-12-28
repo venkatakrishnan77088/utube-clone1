@@ -174,10 +174,10 @@ border-radius: 50%;
     margin-right:10px;
     border-radius:30%;
 }
-.vid-info 
+.vid-info
 {
  color:#5a5a5a;
- font-size:13px;
+ font-size:15px;
 }
 .vid-info a
 {
@@ -252,7 +252,7 @@ border-radius: 50%;
 }
 .play-video
 {
-    flex-basis: 70%;
+    flex-basis: 69%;
 }
 
 .play-video video{
@@ -302,7 +302,7 @@ border-radius: 50%;
 
 .publisher img{
     width: 40px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin-right: 15px;
 }
 
@@ -362,56 +362,54 @@ border-radius: 50%;
     align-items: center;
     margin: 20px 0;
 }
-.old-comment img{
+.old-comments img{
     width: 35px;
     border-radius: 50%;
     margin-right: 15px;
 }
-.old-comment h3{
+.old-comments h3{
     font-size: 14px;
     margin-bottom: 2px;
 }
-.old-comment h3 span{
+.old-comments h3 span{
     font-size: 12px;
     color: #5a5a5a;
     font-weight: 500;
     margin-left: 8px;
 }
-.old-comment .comment-action{
+.old-comments .comment-action{
     display: flex;
     align-items: center;
     margin: 8px 0;
     font-size: 14px;
-    width: 10px;
 }
-.old-comment .comment-action img{
-    border-radius: 5%;
+.old-comments .comment-action img{
+    border-radius: 0;
     width: 20px;
     margin-right: 5px;
-    height: 20px;
 }
-.old-comment .comment-action span{
-    margin-right: 5px;
+.old-comments .comment-action span{
+    margin-right: 20px;
     color: #5a5a5a;  
 }
-.old-comment .comment-action a{
+.old-comments .comment-action a{
     color: #0000ff;
 }
 .right-sidebar{
     flex-basis: 30%;
 }
-side-video{
+.side-video-list{
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
 }
-.side-video img{
-    width: 20%;
+.side-video-list img{
+    width: 100%;
 
 }
-.side-video  .small-thumbnail{
-    flex-basis: 20%;
-}
-.side-video .vid-info{
+.side-video-list .small-thumbnail{
     flex-basis: 50%;
+}
+.side-video-list .vid-info{
+    flex-basis: 49%;
 }
